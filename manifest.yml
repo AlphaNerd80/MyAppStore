@@ -1,0 +1,5 @@
+
+ applications:
+   - name: fs-01
+     docker_image: alphanerd80:rana0305@alphanerd80/fs01:latest
+     mem: 256m

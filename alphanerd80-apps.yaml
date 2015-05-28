@@ -1,0 +1,7 @@
+
+- name: FS01
+  id: fs01
+  desc: sample docker image to be deployed from the appstore
+  runtime: Docker
+  license: MIT
+  src: https://github.com/alphanerd80/fs01
