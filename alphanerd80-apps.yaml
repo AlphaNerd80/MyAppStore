@@ -1,7 +1,13 @@
+store:
+  title: SteveM test apps
+  contact: Steven Mustafa <steven.i.mustafa@gmail.com>
+  icon: https://get.stackato.com/store/icon/third-party.png
 
+apps:
 - name: FS01
   id: fs01
-  desc: sample docker image to be deployed from the appstore
+  desc: sample docker image to be deployed from the appstore (requires sudo in Org quota)
   runtime: Docker
   license: MIT
   src: https://github.com/alphanerd80/fs01
+  mem: 256
